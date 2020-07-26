@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class MoneyConverter{
+    public static void main(String args[]){
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter Your Amount (LKR) : ");
+    double amount = input.nextLong();
+    
+    double doller = 129.26;
+    double pound = 132.74;
+    double euro = 206.36;
+    
+    double ds = amount/doller;
+    double dr = amount/pound;
+    double dv = amount/euro;
+    
+    System.out.println("\t"+amount+"LKR"+"="+ds+"$");
+    System.out.println("\t"+amount+"LKR"+"="+dr+" Pound");
+    System.out.println("\t"+amount+"LKR"+"="+dv+" Euro");
+    
+    
+    }
+}

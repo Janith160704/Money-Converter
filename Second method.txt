@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Ex1 {
+
+	public static void main(String[] args)
+  {
+        
+	  Scanner in = new Scanner(System.in);
+    System.out.print("Enter Your Amount (LKR) : ");
+    double amount = in.nextLong();
+		
+    double dollars = amount /129.26;
+		System.out.println("Dollar = "+ dollars + " $");
+          
+    double pounds = amount /132.74;
+		System.out.println("Pounds = "+ pounds + " pounds");
+            
+    double euros = amount /206.36;
+		System.out.println("Euros  = " + euros + " Euros");
+        
+	}
+}
